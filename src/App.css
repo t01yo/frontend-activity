@@ -1,0 +1,33 @@
+/* App.css */
+
+/* Apply box-sizing border-box to all elements */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Set styles for the main container */
+.container {
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding around the container */
+}
+
+/* Style for the main section */
+main {
+  margin-top: 20px; /* Add space between navbar and main section */
+}
+
+/* Style for the button */
+button {
+  margin-bottom: 10px; /* Add space below the button */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .container {
+      padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
